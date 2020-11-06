@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1AEAD1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageSplash"
+        android:layout_width="252dp"
+        android:layout_height="92dp"
+        android:layout_above="@+id/startuplines"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerInParent="true"
+
+        android:src="@drawable/ic_maptixlogo" />
+
+    <ImageView
+        android:id="@+id/startuplines"
+        android:layout_width="382dp"
+        android:layout_height="271dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/ic_startuplines" />
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+    <color name="Black">#000000</color>
+    <color name="ExpandChildBackground">#2e856e</color>
+    <color name="ExpandGroupBackground">#48D1CC</color>
+    <color name="paleturquoise">#AFEEEE</color>t
+</resources>
